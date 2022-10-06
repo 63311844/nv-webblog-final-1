@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>โปรดเข้าสู่ระบบ</h1>
+    <h1><center>User Login</center></h1>
     <form v-on:submit.prevent="onLogin">
-      <p>Username: <input type="text" v-model="email" /></p>
-      <p>Password: <input type="password" v-model="password" /></p>
-      <p><button type="submit">Login</button></p>
+    <center><p>Username: <input type="text" v-model="email" /></p></center>
+  <center><p>Password: <input type="password" v-model="password" /></p></center>
+<center><p><button type="submit">Login</button></p></center>
       <div class="error" v-if="error">{{error}}</div>
     </form>
   </div>
