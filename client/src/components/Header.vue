@@ -17,7 +17,7 @@ export default {};
 </script>
 <style scoped>
 .nv-navbar {
-	background-color: rgb(223, 170, 238);
+	background-color: rgb(213, 20, 20);
 	width: 100%;
 	padding: 10px 0px 10px 0px;
 }
